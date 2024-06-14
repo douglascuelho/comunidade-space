@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planetas do Sistema Solar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Planetas do Sistema Solar</h1>
+        <div class="filters">
+            <input type="text" id="nameFilter" placeholder="Filtrar por nome">
+            <input type="number" id="moonFilter" placeholder="Filtrar por número de luas">
+        </div>
+        <table id="planetTable">
+            <thead>
+                <tr>
+                    <th data-column="name">Nome</th>
+                    <th data-column="diameter">Diâmetro (km)</th>
+                    <th data-column="distance">Distância do Sol (milhões de km)</th>
+                    <th data-column="moons">Número de Luas</th>
+                    <th data-column="description">Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mercúrio</td>
+                    <td>4,879</td>
+                    <td>57.9</td>
+                    <td>0</td>
+                    <td>O planeta mais próximo do Sol.</td>
+                </tr>
+                <tr>
+                    <td>Vênus</td>
+                    <td>12,104</td>
+                    <td>108.2</td>
+                    <td>0</td>
+                    <td>Similar em tamanho à Terra, mas com condições extremas.</td>
+                </tr>
+                <tr>
+                    <td>Terra</td>
+                    <td>12,742</td>
+                    <td>149.6</td>
+                    <td>1</td>
+                    <td>Nosso planeta natal, o único conhecido por abrigar vida.</td>
+                </tr>
+                <tr>
+                    <td>Marte</td>
+                    <td>6,779</td>
+                    <td>227.9</td>
+                    <td>2</td>
+                    <td>Conhecido como o "Planeta Vermelho".</td>
+                </tr>
+                <tr>
+                    <td>Júpiter</td>
+                    <td>139,820</td>
+                    <td>778.5</td>
+                    <td>79</td>
+                    <td>O maior planeta do Sistema Solar.</td>
+                </tr>
+                <tr>
+                    <td>Saturno</td>
+                    <td>116,460</td>
+                    <td>1,429</td>
+                    <td>83</td>
+                    <td>Famoso por seus anéis impressionantes.</td>
+                </tr>
+                <tr>
+                    <td>Urano</td>
+                    <td>50,724</td>
+                    <td>2,871</td>
+                    <td>27</td>
+                    <td>Conhecido por seu eixo de rotação único.</td>
+                </tr>
+                <tr>
+                    <td>Netuno</td>
+                    <td>49,244</td>
+                    <td>4,498</td>
+                    <td>14</td>
+                    <td>Famoso por seus ventos fortes.</td>
+                </tr>
+                <tr>
+                    <td>Plutão</td>
+                    <td>2,377</td>
+                    <td>5,906</td>
+                    <td>5</td>
+                    <td>Planeta anão anteriormente classificado como o nono planeta.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

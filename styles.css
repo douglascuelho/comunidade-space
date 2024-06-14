@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url('stars-wallpaper.jpg');
+    background-size: cover; 
+}
+
+.container {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family: "Kanit", sans-serif;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.button-wrapper {
+    margin-bottom: 10px;
+}
+
+.rounded-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #460979; 
+    color: white; 
+    text-decoration: none;
+    transition: background-color 0.3s; 
+}
+
+.rounded-button:hover {
+    background-color: #76477d; 
+}
